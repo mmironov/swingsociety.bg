@@ -1,1 +1,1 @@
-# swing-society
+# Swing Society
