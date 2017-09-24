@@ -24,11 +24,18 @@
 @media only screen and (min-width: 767px) {
 	.btn-workshop{
 	position: absolute;
-    bottom: 5%;
-    right: 5%;
+    bottom: 7%;
+    right: 6%;
 	}
 }
 
+.img-meghan {
+    margin-top: -30px;
+  display: block;
+  width: 100%;
+  max-height: auto;
+  object-fit: cover;
+}
 
 @media only screen and (max-width: 767px) {
 	.btn-workshop {
