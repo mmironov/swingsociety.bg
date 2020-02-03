@@ -63,11 +63,12 @@
     }
 
     .passes .pass {
-        border: 5px solid #ffbe3c;
         background: #2f2f2f;
         color: white;
         padding: 10px;
         text-align: center;
+        transform: skewY(-1deg);
+        box-shadow: 10px -15px #ffbe3c;
     }
 
 .max-width-75 {
