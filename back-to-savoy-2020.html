@@ -290,7 +290,13 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
+    <script>
+        $("#navbarResponsive").on('show.bs.collapse', function() {
+            $('a.nav-link').click(function() {
+                $("#navbarResponsive").collapse('hide');
+            });
+        });
+    </script>
 </body>
 
 </html>
