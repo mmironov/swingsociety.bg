@@ -75,34 +75,6 @@
     max-width: 75%;
 }
 
-.subsection-heading {
-    position: relative;
-    margin-top: 0.9em;
-}
-
-    .subsection-heading:before {
-        content: '';
-        position: absolute;
-        top: -0.9em;
-        left: 0;
-        height: 3px;
-        width: 200px;
-        background-color: #e7e7e7;
-    }
-
-    .subsection-heading.text-right:before,
-    .subsection-heading.text-lg-right:before {
-        left: auto;
-        right: 0;
-    }
-
-@media only screen and (max-width: 991px) {
-    .subsection-heading.text-lg-right:before {
-        left: 0;
-        right: auto;
-    }
-}
-
 @media only screen and (max-width: 767px) {
     .btn-workshop {
         width: 100%;
